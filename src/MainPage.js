@@ -1,4 +1,5 @@
 import React from "react"
+import './style.scss'
 
 const MainPage = () => {
   return (
@@ -6,7 +7,7 @@ const MainPage = () => {
       <section className="header">
         <div className="container">
           <div className="header__inner">
-            <span className="header__logo">VoGo</span>
+            <h1 className="header__logo">VoGo</h1>
             <nav className="header__nav nav">
               <a href="#0" className="nav__link">
                 About

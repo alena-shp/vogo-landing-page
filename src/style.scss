@@ -1,0 +1,101 @@
+// === mixin ===
+@mixin font-main {
+  font-family: "Spartan", sans-serif;
+}
+
+@mixin font-decoration {
+  font-family: "Kaushan Script", cursive;
+}
+// === // mixin ===
+
+// === variables ===
+$color-gray: #333;
+$color-white: #ffffff;
+// === //variables ===
+
+// === common ===
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+h1,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  @include font-main;
+
+  color: #333;
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 100%;
+}
+// === // common ===
+
+// === header ===
+.header {
+  left: 0;
+  padding-top: 40px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+
+  &__inner {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__logo {
+    font-size: 26px;
+    font-weight: 700;
+  }
+  .nav {
+    font-size: 14px;
+    text-transform: uppercase;
+
+    &__link {
+      color: $color-gray;
+      display: inline-block;
+      margin: 0 20px;
+      position: relative;
+      text-decoration: none;
+      transition: color 0.2s linear;
+
+      &:hover {
+        color: green;
+        &::after {
+          opacity: 1;
+        }
+      }
+
+      &::after {
+        background-color: green;
+        content: "";
+        opacity: 0;
+        left: 0;
+        height: 3px;
+        position: absolute;
+        top: 100%;
+        transition: opacity 0.1s linear;
+        width: 100%;
+        z-index: 1;
+      }
+    }
+  }
+}
+// === // header ===
