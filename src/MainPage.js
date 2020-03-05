@@ -1,5 +1,5 @@
 import React from "react"
-import './style.scss'
+import "./style.scss"
 
 const MainPage = () => {
   return (
@@ -25,6 +25,41 @@ const MainPage = () => {
                 Contact
               </a>
             </nav>
+          </div>
+        </div>
+      </section>
+      <section className="intro">
+        <div className="container">
+          <div className="intro__inner">
+            <h1 className="intro__suptitle">Dream and Create</h1>
+            <h1 className="intro__title">Welcome to VoGo</h1>
+            <button className="btn">Learn More</button>
+          </div>
+        </div>
+
+        <div className="slider">
+          <div className="container">
+            <div className="slider__inner">
+              <div className="slider__item">
+                <span className="slider__num">01</span>
+                <span className="slider__text">Intro</span>
+              </div>
+
+              <div className="slider__item">
+                <span className="slider__num">02</span>
+                <span className="slider__text">Work</span>
+              </div>
+
+              <div className="slider__item">
+                <span className="slider__num">03</span>
+                <span className="slider__text">About</span>
+              </div>
+
+              <div className="slider__item">
+                <span className="slider__num">04</span>
+                <span className="slider__text">Contacts</span>
+              </div>
+            </div>
           </div>
         </div>
       </section>
