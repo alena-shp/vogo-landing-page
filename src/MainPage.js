@@ -65,6 +65,20 @@ const MainPage = () => {
           </div>
         </div>
       </section>
+
+      <section className="title-block">
+        <div className="container">
+          <div className="title-block__inner">
+            <h3 className="title-block__sup">We work with</h3>
+            <h3 className="title-block__sub">Amazing Services</h3>
+            <p className="title-block__text">
+              You create the best company when you see other people's mistakes
+              and find the strength to fix them. The best service may be the
+              only competitive advantage.
+            </p>
+          </div>
+        </div>
+      </section>
     </div>
   )
 }
