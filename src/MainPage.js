@@ -42,7 +42,7 @@ const MainPage = () => {
         <div className="slider">
           <div className="container">
             <div className="slider__inner">
-              <div className="slider__item">
+              <div className="slider__item active">
                 <span className="slider__num">01</span>
                 <span className="slider__text">Intro</span>
               </div>
