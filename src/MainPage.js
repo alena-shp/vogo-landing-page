@@ -101,6 +101,37 @@ const MainPage = () => {
           </div>
         </div>
       </section>
+
+      <section className="statistics">
+        <div className="container">
+          <div className="statistics__row">
+            <div className="statistics__item">
+              <span className="statistics__item-count">75</span> <br />
+              <span className="statistics__item-text">Web design projects</span>
+            </div>
+
+            <div className="statistics__item">
+              <span className="statistics__item-count">105</span> <br />
+              <span className="statistics__item-text">Happy client</span>
+            </div>
+
+            <div className="statistics__item">
+              <span className="statistics__item-count">10</span> <br />
+              <span className="statistics__item-text">Award winner</span>
+            </div>
+
+            <div className="statistics__item">
+              <span className="statistics__item-count">66</span> <br />
+              <span className="statistics__item-text">Cup of tea</span>
+            </div>
+
+            <div className="statistics__item">
+              <span className="statistics__item-count">15</span> <br />
+              <span className="statistics__item-text">Members</span>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   )
 }

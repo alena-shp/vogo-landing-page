@@ -16,6 +16,8 @@
 $color-gray: #333;
 $color-white: #ffffff;
 $color-pink: #db6689;
+$color-pink-light: #e799b0;
+
 // === //variables ===
 
 // === common ===
@@ -250,7 +252,7 @@ body {
   }
 
   &__item {
-    background-color: $color-pink;
+    background-color: $color-pink-light;
     position: relative;
 
     &:hover &-img {
@@ -292,3 +294,32 @@ body {
 }
 
 // === //about ===
+
+// === statistics ===
+.statistics {
+  background-color: $color-pink;
+
+  &__row {
+    display: flex;
+  }
+
+  &__item {
+    flex: 1 1 0;
+    padding: 70px 30px;
+    border-left: 2px solid $color-pink-light;
+    text-align: center;
+
+    color: $color-white;
+
+    &:last-child {
+      border-right: 2px solid $color-pink-light;
+    }
+
+    &-count {
+      font-size: 50px;
+      font-weight: 700;
+    }
+  }
+}
+
+// === // statistics ===
