@@ -47,6 +47,41 @@ body {
   max-width: 1200px;
   width: 100%;
 }
+
+.title-block {
+  margin: 0 auto 40px;
+  max-width: 860px;
+  text-align: center;
+  width: 100%;
+
+  &__sup {
+    @include font-decoration;
+
+    font-size: 34px;
+    margin-bottom: 10px;
+  }
+
+  &__sub {
+    font-size: 42px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+
+    &::after {
+      content: "";
+      background-color: $color-pink;
+      display: block;
+      height: 3px;
+      margin: 30px auto;
+      width: 60px;
+    }
+  }
+
+  &__text {
+    font-size: 28px;
+    line-height: 1;
+  }
+}
+
 // === // common ===
 
 // === header ===
@@ -199,55 +234,14 @@ body {
       font-weight: 700px;
       margin-right: 10px;
     }
-
-    
   }
 }
 
 // === // intro ===
 
-// === title-block ===
-.title-block {
+// === about ===
+.about {
   padding: 70px 0;
-
-  &__inner {
-    margin: 0 auto 40px;
-    max-width: 860px;
-    text-align: center;
-    width: 100%;
-
-  }
-
-  &__sup {
-    @include font-decoration;
-
-    font-size: 34px;
-    margin-bottom: 10px;
-  }
-
-  &__sub {
-    font-size: 42px;
-    margin-bottom: 20px;
-    text-transform: uppercase;
-
-    &::after {
-      content: "";
-      background-color: $color-pink;
-      display: block;
-      height: 3px;
-      margin: 30px auto;
-      width: 60px;
-      
-    }
-
-  }
-
-  &__text {
-    font-size: 28px;
-    line-height: 1;
-
-  }
-
 }
 
-// === //title-block ===
+// === //about ===

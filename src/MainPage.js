@@ -66,9 +66,9 @@ const MainPage = () => {
         </div>
       </section>
 
-      <section className="title-block">
+      <section className="about">
         <div className="container">
-          <div className="title-block__inner">
+          <div className="title-block">
             <h3 className="title-block__sup">We work with</h3>
             <h3 className="title-block__sub">Amazing Services</h3>
             <p className="title-block__text">
