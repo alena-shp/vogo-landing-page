@@ -33,7 +33,9 @@ const MainPage = () => {
           <div className="intro__inner">
             <h1 className="intro__suptitle">Dream and Create</h1>
             <h1 className="intro__title">Welcome to VoGo</h1>
-            <button className="btn">Learn More</button>
+            <a className="btn" href="#a">
+              Learn More
+            </a>
           </div>
         </div>
 

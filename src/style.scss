@@ -6,11 +6,16 @@
 @mixin font-decoration {
   font-family: "Kaushan Script", cursive;
 }
+
+@mixin font-btn {
+  font-family: "Open Sans", sans-serif;
+}
 // === // mixin ===
 
 // === variables ===
 $color-gray: #333;
 $color-white: #ffffff;
+$color-pink: #db6689;
 // === //variables ===
 
 // === common ===
@@ -77,14 +82,14 @@ body {
       transition: color 0.2s linear;
 
       &:hover {
-        color: green;
+        color: $color-pink;
         &::after {
           opacity: 1;
         }
       }
 
       &::after {
-        background-color: green;
+        background-color: $color-pink;
         content: "";
         opacity: 0;
         left: 0;
@@ -99,3 +104,82 @@ body {
   }
 }
 // === // header ===
+
+// === intro ===
+.intro {
+  display: flex;
+  align-items: center;
+  position: relative;
+
+  width: 100%;
+  height: 100vh;
+
+  background: url("./assets/backImg.jpg") center no-repeat;
+  background-size: cover;
+
+  &__inner {
+    width: 100%;
+    max-width: 880px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  &__suptitle {
+    @include font-decoration;
+
+    font-size: 80px;
+    color: $color-gray;
+    margin-bottom: 30px;
+  }
+
+  &__title {
+    font-size: 130px;
+    color: $color-pink;
+    line-height: 1.2;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+
+  .btn {
+    @include font-btn;
+
+    display: inline-block;
+    color: $color-pink;
+    border: 2px solid $color-pink;
+    font-size: 18px;
+    vertical-align: top;
+    border-radius: 50px;
+    padding: 8px 36px;
+    text-decoration: none;
+    font-weight: 400;
+    background-color: rgba(255, 255, 255, 0.600);
+    text-transform: uppercase;
+    
+    &:hover {
+      border: 2px solid $color-white;
+      background-color: rgba(255, 192, 203, 0.600);
+      color: $color-white;
+    }
+  }
+
+  .slider {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+
+    &__inner {
+    }
+    &__item {
+    }
+
+    &__num {
+    }
+
+    &__text {
+    }
+  }
+}
+
+// === // intro ===
