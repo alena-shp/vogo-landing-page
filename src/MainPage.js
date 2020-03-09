@@ -77,6 +77,28 @@ const MainPage = () => {
               only competitive advantage.
             </p>
           </div>
+          <div className="about__row">
+            <div className="about__item">
+              <div className="about__item-img">
+                <img src="https://picsum.photos/id/180/380/240" alt="" />
+              </div>
+              <p className="about__item-text">super team</p>
+            </div>
+
+            <div className="about__item">
+              <div className="about__item-img">
+                <img src="https://picsum.photos/id/42/380/240" alt="" />
+              </div>
+              <p className="about__item-text">super team</p>
+            </div>
+
+            <div className="about__item">
+              <div className="about__item-img">
+                <img src="https://picsum.photos/id/20/380/240" alt="" />
+              </div>
+              <p className="about__item-text">super team</p>
+            </div>
+          </div>
         </div>
       </section>
     </div>

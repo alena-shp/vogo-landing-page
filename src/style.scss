@@ -242,6 +242,53 @@ body {
 // === about ===
 .about {
   padding: 70px 0;
+
+  &__row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+  }
+
+  &__item {
+    background-color: $color-pink;
+    position: relative;
+
+    &:hover &-img {
+      transform: translate3d(-10px, -10px, 0);
+
+      img {
+        opacity: 0.1;
+      }
+    }
+
+    &:hover &-text {
+      opacity: 1;
+    }
+
+    &-img {
+      background-image: linear-gradient(to bottom right, #145364, #d9e2c3);
+      transition: transform 0.2s linear;
+
+      img {
+        display: block;
+        transition: opacity 0.2s linear;
+      }
+    }
+
+    &-text {
+      font-size: 18px;
+      font-weight: 700;
+      left: 0;
+      opacity: 0;
+      position: absolute;
+      text-align: center;
+      text-transform: uppercase;
+      top: 50%;
+      transform: translate3d(0, -50%, 0);
+      transition: opacity 0.2s linear;
+      width: 100%;
+    }
+  }
 }
 
 // === //about ===
