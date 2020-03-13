@@ -205,6 +205,19 @@ const MainPage = () => {
           </div>
         </div>
       </section>
+      <section className="description">
+        <div className="container">
+          <div className="title-block">
+            <h3 className="title-block__sup">We work with</h3>
+            <h3 className="title-block__sub">Amazing Services</h3>
+          </div>
+          <div className="description__action">
+            <a className="description__action-btn" href="0#">
+              Apply now
+            </a>
+          </div>
+        </div>
+      </section>
     </div>
   )
 }
