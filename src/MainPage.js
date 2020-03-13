@@ -149,35 +149,37 @@ const MainPage = () => {
           <div className="services__row">
             <div className="services__item">
               <img className="services__item-img" src={photography} alt="" />
-              <h3 className="services__title">Photography</h3>
-              <p className="services__text">
-                Photos convey the atmosphere. To make a quality photo,
-                experience and qualifications are required
+              <h3 className="services__item-title">Photography</h3>
+              <p className="services__item-text">
+                To make a quality photo, experience and qualifications are
+                required
               </p>
             </div>
 
             <div className="services__item">
               <img className="services__item-img" src={design} alt="" />
-              <h3 className="services__title">Web Design</h3>
-              <p className="services__text">
-                The use of user experience, create and test prototypes and
-                embody interface design
+              <h3 className="services__item-title">Web Design</h3>
+              <p className="services__item-text">
+                The use of user experience, create prototypes and embody
+                interface design
               </p>
             </div>
 
             <div className="services__item">
               <img className="services__item-img" src={creativity} alt="" />
-              <h3 className="services__title">Creativity</h3>
-              <p className="services__text">
-                Website development and creation, interface design, graphic and
-                web design, integrated website promotion
+              <h3 className="services__item-title">Creativity</h3>
+              <p className="services__item-text">
+                Website development and creation, interface design and graphic
+                integrated website promotion
               </p>
             </div>
+          </div>
 
+          <div className="services__row">
             <div className="services__item">
               <img className="services__item-img" src={seo} alt="" />
-              <h3 className="services__title">SEO</h3>
-              <p className="services__text">
+              <h3 className="services__item-title">SEO</h3>
+              <p className="services__item-text">
                 Creation of projects of any complexity and their support in
                 general stages of development
               </p>
@@ -185,19 +187,19 @@ const MainPage = () => {
 
             <div className="services__item">
               <img className="services__item-img" src={html} alt="" />
-              <h3 className="services__title">CSS/HTML</h3>
-              <p className="services__text">
+              <h3 className="services__item-title">CSS/HTML</h3>
+              <p className="services__item-text">
                 Creation of effective and dynamic sites, implementation of
-                original visual solutions for your Internet projects
+                original visual solutions
               </p>
             </div>
 
             <div className="services__item">
               <img className="services__item-img" src={digital} alt="" />
-              <h3 className="services__title">Digital</h3>
-              <p className="services__text">
+              <h3 className="services__item-title">Digital</h3>
+              <p className="services__item-text">
                 Using the latest digital technologies to attract potential
-                customers and retain them as consumers
+                customers
               </p>
             </div>
           </div>
