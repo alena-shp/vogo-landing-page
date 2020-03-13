@@ -1,6 +1,13 @@
 import React from "react"
 import "./style.scss"
 
+import creativity from "./assets/services/creativity.png"
+import html from "./assets/services/html.png"
+import design from "./assets/services/design.png"
+import digital from "./assets/services/digital.png"
+import photography from "./assets/services/photography.png"
+import seo from "./assets/services/seo.png"
+
 const MainPage = () => {
   return (
     <div className="main-page">
@@ -69,8 +76,8 @@ const MainPage = () => {
       <section className="about">
         <div className="container">
           <div className="title-block">
-            <h3 className="title-block__sup">We work with</h3>
-            <h3 className="title-block__sub">Amazing Services</h3>
+            <h3 className="title-block__sup">What we do</h3>
+            <h3 className="title-block__sub">Story About Us</h3>
             <p className="title-block__text">
               You create the best company when you see other people's mistakes
               and find the strength to fix them. The best service may be the
@@ -128,6 +135,70 @@ const MainPage = () => {
             <div className="statistics__item">
               <span className="statistics__item-count">15</span> <br />
               <span className="statistics__item-text">Members</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="services">
+        <div className="container">
+          <div className="title-block">
+            <h3 className="title-block__sup">We work with</h3>
+            <h3 className="title-block__sub">Amazing Services</h3>
+          </div>
+          <div className="services__row">
+            <div className="services__item">
+              <img className="services__item-img" src={photography} alt="" />
+              <h3 className="services__title">Photography</h3>
+              <p className="services__text">
+                Photos convey the atmosphere. To make a quality photo,
+                experience and qualifications are required
+              </p>
+            </div>
+
+            <div className="services__item">
+              <img className="services__item-img" src={design} alt="" />
+              <h3 className="services__title">Web Design</h3>
+              <p className="services__text">
+                The use of user experience, create and test prototypes and
+                embody interface design
+              </p>
+            </div>
+
+            <div className="services__item">
+              <img className="services__item-img" src={creativity} alt="" />
+              <h3 className="services__title">Creativity</h3>
+              <p className="services__text">
+                Website development and creation, interface design, graphic and
+                web design, integrated website promotion
+              </p>
+            </div>
+
+            <div className="services__item">
+              <img className="services__item-img" src={seo} alt="" />
+              <h3 className="services__title">SEO</h3>
+              <p className="services__text">
+                Creation of projects of any complexity and their support in
+                general stages of development
+              </p>
+            </div>
+
+            <div className="services__item">
+              <img className="services__item-img" src={html} alt="" />
+              <h3 className="services__title">CSS/HTML</h3>
+              <p className="services__text">
+                Creation of effective and dynamic sites, implementation of
+                original visual solutions for your Internet projects
+              </p>
+            </div>
+
+            <div className="services__item">
+              <img className="services__item-img" src={digital} alt="" />
+              <h3 className="services__title">Digital</h3>
+              <p className="services__text">
+                Using the latest digital technologies to attract potential
+                customers and retain them as consumers
+              </p>
             </div>
           </div>
         </div>
