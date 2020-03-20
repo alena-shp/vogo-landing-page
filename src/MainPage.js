@@ -7,6 +7,10 @@ import design from "./assets/services/design.png"
 import digital from "./assets/services/digital.png"
 import photography from "./assets/services/photography.png"
 import seo from "./assets/services/seo.png"
+import promoImg from "./assets/promoImg.png"
+import promo1 from "./assets/promo/promo1.png"
+import promo2 from "./assets/promo/promo2.png"
+import promo3 from "./assets/promo/promo3.png"
 
 const MainPage = () => {
   return (
@@ -230,24 +234,52 @@ const MainPage = () => {
             </p>
           </div>
           <div className="promo__content">
-            <div className="promo__item">
-              <img className="promo__item-img" src="" alt="" />
+            <div className="promo__content-img">
+              <img src={promoImg} alt="" />
             </div>
-            <div className="promo__item">
-              <div className="accordion">
-                <div className="accordion__item">
-                  <div className="accordion__header">
-                    <img className="accordion__header-icon" src="" alt="" />
-                    <h3 className="accordion__header-title">Photography</h3>
-                  </div>
-                  <div className="accordion__content">
-                    <p className="accordion__content-text">
-                      To make professional photos you need talent, skills and
-                      discipline. And you also need perseverance to spend long
-                      hours, to compete due to the imbalance of supply and
-                      demand and manage your business as an entrepreneur
-                    </p>
-                  </div>
+            <div className="promo__content-accordion accordion">
+              <div className="accordion__item accordion__item--active">
+                <div className="accordion__header">
+                  <img className="accordion__icon" src={promo1} alt="" />
+                  <h3 className="accordion__title">Photography</h3>
+                </div>
+                <div className="accordion__text">
+                  <p>
+                    To make professional photos you need talent, skills and
+                    discipline. And you also need perseverance to spend long
+                    hours, to compete due to the imbalance of supply and demand
+                    and manage your business as an entrepreneur
+                  </p>
+                </div>
+              </div>
+
+              <div className="accordion__item">
+                <div className="accordion__header">
+                  <img className="accordion__icon" src={promo2} alt="" />
+                  <h3 className="accordion__title">Creativity</h3>
+                </div>
+                <div className="accordion__text">
+                  <p>
+                    To make professional photos you need talent, skills and
+                    discipline. And you also need perseverance to spend long
+                    hours, to compete due to the imbalance of supply and demand
+                    and manage your business as an entrepreneur
+                  </p>
+                </div>
+              </div>
+
+              <div className="accordion__item">
+                <div className="accordion__header">
+                  <img className="accordion__icon" src={promo3} alt="" />
+                  <h3 className="accordion__title">Web design</h3>
+                </div>
+                <div className="accordion__text">
+                  <p>
+                    To make professional photos you need talent, skills and
+                    discipline. And you also need perseverance to spend long
+                    hours, to compete due to the imbalance of supply and demand
+                    and manage your business as an entrepreneur
+                  </p>
                 </div>
               </div>
             </div>
