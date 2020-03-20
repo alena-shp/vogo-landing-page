@@ -286,6 +286,19 @@ const MainPage = () => {
           </div>
         </div>
       </section>
+      <section className="rewievs">
+        <div className="container">
+          <div className="rewievs__item">
+            <img src="" alt="" className="rewievs__item-img" />
+            <p className="rewievs__item-text">
+              Anyone interested in a high-quality and modern website are advised
+              to contact VoGo. We turned to the studio with the goal of creating
+              a Landing page and got a selling site with a conversion of 23%.
+            </p>
+            <p className="rewievs__item-author">Еdward Рeter</p>
+          </div>
+        </div>
+      </section>
     </div>
   )
 }
