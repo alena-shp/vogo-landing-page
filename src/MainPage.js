@@ -11,10 +11,11 @@ import promoImg from "./assets/promoImg.png"
 import promo1 from "./assets/promo/promo1.png"
 import promo2 from "./assets/promo/promo2.png"
 import promo3 from "./assets/promo/promo3.png"
+import rewievsImg from "./assets/rewievsImg.png"
 
 const MainPage = () => {
   return (
-    <div className="main-page">
+    <section className="main-page">
       <section className="header">
         <div className="container">
           <div className="header__inner">
@@ -289,17 +290,20 @@ const MainPage = () => {
       <section className="rewievs">
         <div className="container">
           <div className="rewievs__item">
-            <img src="" alt="" className="rewievs__item-img" />
-            <p className="rewievs__item-text">
-              Anyone interested in a high-quality and modern website are advised
-              to contact VoGo. We turned to the studio with the goal of creating
-              a Landing page and got a selling site with a conversion of 23%.
-            </p>
-            <p className="rewievs__item-author">Еdward Рeter</p>
+            <img src={rewievsImg} alt="" className="rewievs__item-img" />
+            <div className="rewievs__item-content">
+              <p className="rewievs__item-text">
+                "Anyone interested in a high-quality and modern website are
+                advised to contact VoGo. We turned to the studio with the goal
+                of creating a Landing page and got a selling site with a
+                conversion of 23%".
+              </p>
+              <p className="rewievs__item-author">Edward Peter</p>
+            </div>
           </div>
         </div>
       </section>
-    </div>
+    </section>
   )
 }
 

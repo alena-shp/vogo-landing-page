@@ -487,7 +487,7 @@ body {
         border-right: 2px solid $color-gray-light;
         position: absolute;
         right: 20px;
-        top: 40%;
+        top: 36%;
         z-index: 1;
         transform: rotate(135deg);
       }
@@ -516,3 +516,77 @@ body {
 }
 
 // === // promo ===
+
+// === rewievs ===
+
+.rewievs {
+  background-color: $color-gray-light;
+  padding: 60px 0;
+  position: relative;
+
+  &__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &-img {
+      border: 2px solid $color-white;
+      padding: 6px;
+    }
+
+    &-content {
+      width: 60%;
+      margin: 0 auto;
+    }
+
+    &-text {
+      font-size: 20px;
+      font-style: italic;
+      color: $color-gray;
+      line-height: 1.6;
+      margin-bottom: 16px;
+    }
+    &-author {
+      @include font-decoration;
+
+      font-size: 26px;
+      color: black;
+      font-weight: 600;
+      &::before {
+        content: "";
+        background-color: $color-pink;
+        display: inline-block;
+        height: 3px;
+        width: 60px;
+        vertical-align: middle;
+        margin-right: 16px;
+      }
+    }
+  }
+
+  &::before,
+  &::after {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+  }
+
+  &::before {
+    border-left: 2px solid $color-gray;
+    border-bottom: 2px solid $color-gray;
+    left: 70px;
+    transform: rotate(45deg);
+  }
+  &::after {
+    border-top: 2px solid $color-gray;
+    border-right: 2px solid $color-gray;
+    right: 70px;
+    transform: rotate(45deg);
+  }
+}
+
+// === // rewievs ===
