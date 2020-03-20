@@ -218,6 +218,42 @@ const MainPage = () => {
           </div>
         </div>
       </section>
+
+      <section className="promo">
+        <div className="container">
+          <div className="title-block">
+            <h3 className="title-block__sup">Service</h3>
+            <h3 className="title-block__sub">What we do</h3>
+            <p className="title-block__text">
+              You don’t need to be a professional to make a beautiful website.
+              All you need is to contact us and your site will be fantastic!
+            </p>
+          </div>
+          <div className="promo__content">
+            <div className="promo__item">
+              <img className="promo__item-img" src="" alt="" />
+            </div>
+            <div className="promo__item">
+              <div className="accordion">
+                <div className="accordion__item">
+                  <div className="accordion__header">
+                    <img className="accordion__header-icon" src="" alt="" />
+                    <h3 className="accordion__header-title">Photography</h3>
+                  </div>
+                  <div className="accordion__content">
+                    <p className="accordion__content-text">
+                      To make professional photos you need talent, skills and
+                      discipline. And you also need perseverance to spend long
+                      hours, to compete due to the imbalance of supply and
+                      demand and manage your business as an entrepreneur
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   )
 }
