@@ -188,15 +188,15 @@ body {
     border-radius: 50px;
     display: inline-block;
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 600;
     padding: 8px 36px;
     text-decoration: none;
     text-transform: uppercase;
     vertical-align: top;
 
     &:hover {
-      background-color: rgba(255, 192, 203, 0.6);
-      border: 2px solid $color-white;
+      background-color: #db668980;
+      border: 2px solid #db6689;
       color: $color-white;
     }
   }
@@ -377,9 +377,8 @@ body {
   background: url("./assets/back2Img.png") center no-repeat;
   background-size: cover;
   width: 100%;
-  height: 100vh;
   position: relative;
-  padding-top: 80px;
+  padding: 50px 0;
 
   &:before {
     content: "";
@@ -414,5 +413,8 @@ body {
         color: $color-white;
       }
     }
+  }
+  .title-block {
+    margin-bottom: 50px;
   }
 }
