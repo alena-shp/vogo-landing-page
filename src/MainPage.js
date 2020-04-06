@@ -12,10 +12,17 @@ import promo1 from "./assets/promo/promo1.png"
 import promo2 from "./assets/promo/promo2.png"
 import promo3 from "./assets/promo/promo3.png"
 import rewievsImg from "./assets/rewievsImg.png"
+import team1 from "./assets/team/team1.png"
+import team2 from "./assets/team/team2.png"
+import team3 from "./assets/team/team3.png"
+import facebook from "./assets/social/facebook.png"
+import instagram from "./assets/social/instagram.png"
+import pinterest from "./assets/social/pinterest.png"
+import twitter from "./assets/social/twitter.png"
 
 const MainPage = () => {
   return (
-    <section className="main-page">
+    <div className="main-page">
       <section className="header">
         <div className="container">
           <div className="header__inner">
@@ -89,26 +96,26 @@ const MainPage = () => {
               only competitive advantage.
             </p>
           </div>
-          <div className="about__row">
-            <div className="about__item">
-              <div className="about__item-img">
+          <div className="row-photo">
+            <div className="row-photo__item">
+              <div className="row-photo__item-img">
                 <img src="https://picsum.photos/id/180/380/240" alt="" />
               </div>
-              <p className="about__item-text">super team</p>
+              <p className="row-photo__item-text">super team</p>
             </div>
 
-            <div className="about__item">
-              <div className="about__item-img">
+            <div className="row-photo__item">
+              <div className="row-photo__item-img">
                 <img src="https://picsum.photos/id/42/380/240" alt="" />
               </div>
-              <p className="about__item-text">super team</p>
+              <p className="row-photo__item-text">super team</p>
             </div>
 
-            <div className="about__item">
-              <div className="about__item-img">
+            <div className="row-photo__item">
+              <div className="row-photo__item-img">
                 <img src="https://picsum.photos/id/20/380/240" alt="" />
               </div>
-              <p className="about__item-text">super team</p>
+              <p className="row-photo__item-text">super team</p>
             </div>
           </div>
         </div>
@@ -303,7 +310,100 @@ const MainPage = () => {
           </div>
         </div>
       </section>
-    </section>
+      <section className="team">
+        <div className="container">
+          <div className="title-block">
+            <h3 className="title-block__sup">Who we are</h3>
+            <h3 className="title-block__sub">meet our team</h3>
+            <p className="title-block__text">
+              We are a team of passionate professionals. We have experience and
+              talent, and we must work on excellence. Why are our projects
+              distinguished by their individuality and high level of quality?
+              Because we care!
+            </p>
+          </div>
+          <div className="row-photo">
+            <div className="row-photo__wrapper">
+              <div className="row-photo__item">
+                <div className="row-photo__item-img">
+                  <img src={team1} alt="" />
+                </div>
+                <div className="row-photo__item-social">
+                  <a href="0#">
+                    <img src={facebook} alt="" />
+                  </a>
+                  <a href="0#">
+                    <img src={twitter} alt="" />
+                  </a>
+                  <a href="0#">
+                    <img src={instagram} alt="" />
+                  </a>
+                  <a href="0#">
+                    <img src={pinterest} alt="" />
+                  </a>
+                </div>
+              </div>
+              <div className="row-photo__person">
+                <p className="row-photo__person-name">Vika Simon</p>
+                <p className="row-photo__person-position">designer</p>
+              </div>
+            </div>
+
+            <div className="row-photo__wrapper">
+              <div className="row-photo__item">
+                <div className="row-photo__item-img">
+                  <img src={team2} alt="" />
+                </div>
+                <div className="row-photo__item-social">
+                  <a href="0#">
+                    <img src={facebook} alt="" />
+                  </a>
+                  <a href="0#">
+                    <img src={twitter} alt="" />
+                  </a>
+                  <a href="0#">
+                    <img src={instagram} alt="" />
+                  </a>
+                  <a href="0#">
+                    <img src={pinterest} alt="" />
+                  </a>
+                </div>
+              </div>
+              <div className="row-photo__person">
+                <p className="row-photo__person-name">Elena Nikolaeva</p>
+                <p className="row-photo__person-position">photographer</p>
+              </div>
+            </div>
+
+            <div className="row-photo__wrapper">
+              <div className="row-photo__item">
+                <div className="row-photo__item-img">
+                  <img src={team3} alt="" />
+                </div>
+                <div className="row-photo__item-social">
+                  <a href="0#">
+                    <img src={facebook} alt="" />
+                  </a>
+                  <a href="0#">
+                    <img src={twitter} alt="" />
+                  </a>
+                  <a href="0#">
+                    <img src={instagram} alt="" />
+                  </a>
+                  <a href="0#">
+                    <img src={pinterest} alt="" />
+                  </a>
+                </div>
+              </div>
+              <div className="row-photo__person">
+                <p className="row-photo__person-name">Igor Svetlov</p>
+                <p className="row-photo__person-position">manager</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
   )
 }
 
