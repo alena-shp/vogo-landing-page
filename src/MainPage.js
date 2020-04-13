@@ -419,6 +419,112 @@ const MainPage = () => {
           </div>
         </div>
       </section>
+      <section className="works">
+        <div className="container">
+          <div className="title-block">
+            <h3 className="title-block__sup">What we do</h3>
+            <h3 className="title-block__sub">Some of our work</h3>
+            <p className="title-block__text">
+              We believe that sites should not only look beautiful, but also be
+              convenient to use. We can make such sites. Let's see how this is
+              done with a specific example.
+            </p>
+          </div>
+        </div>
+        <div className="works__examples">
+          <div className="works__col">
+            <div className="works__item">
+              <img
+                src="https://picsum.photos/id/106/360/360"
+                alt=""
+                className="works__item-img"
+              />
+              <div className="works__item-info">
+                <h3 className="works__item-title">Relevant</h3>
+                <p className="works__item-text">Сhange the rules</p>
+              </div>
+            </div>
+
+            <div className="works__item">
+              <img
+                src="https://picsum.photos/id/188/360/360"
+                alt=""
+                className="works__item-img"
+              />
+              <div className="works__item-info">
+                <h3 className="works__item-title">Interesting</h3>
+                <p className="works__item-text">Create a design concept</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="works__col">
+            <div className="works__item">
+              <img
+                src="https://picsum.photos/id/117/360/360"
+                alt=""
+                className="works__item-img"
+              />
+              <div className="works__item-info">
+                <h3 className="works__item-title">Professionally</h3>
+                <p className="works__item-text">Modern design with interesting animation</p>
+              </div>
+            </div>
+
+            <div className="works__item">
+              <img
+                src="https://picsum.photos/id/109/360/360"
+                alt=""
+                className="works__item-img"
+              />
+              <div className="works__item-info">
+                <h3 className="works__item-title">Qualitatively</h3>
+                <p className="works__item-text">Studying your target audience</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="works__col">
+            <div className="works__item">
+              <img
+                src="https://picsum.photos/id/112/360/720"
+                alt=""
+                className="works__item-img"
+              />
+              <div className="works__item-info">
+                <h3 className="works__item-title">Creatively designed</h3>
+                <p className="works__item-text">Design for us is a special philosophy</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="works__col">
+            <div className="works__item">
+              <img
+                src="https://picsum.photos/id/122/360/360"
+                alt=""
+                className="works__item-img"
+              />
+              <div className="works__item-info">
+                <h3 className="works__item-title">Beautiful</h3>
+                <p className="works__item-text">Think over to the smallest detail</p>
+              </div>
+            </div>
+
+            <div className="works__item">
+              <img
+                src="https://picsum.photos/id/102/360/360"
+                alt=""
+                className="works__item-img"
+              />
+              <div className="works__item-info">
+                <h3 className="works__item-title">Modernly</h3>
+                <p className="works__item-text">Sites of any complexity</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   )
 }
