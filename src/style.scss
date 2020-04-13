@@ -647,3 +647,53 @@ body {
 }
 
 // === //logos ===
+
+// === works ===
+.works {
+  padding: 80px 0;
+  &__examples {
+    display: flex;
+  }
+  &__col {
+    flex: 1 1 0;
+  }
+  &__item {
+    position: relative;
+    background-image: linear-gradient(to bottom right, #145364, #d9e2c3);
+    transition: transform 0.2s linear;
+
+    &-img {
+      display: block;
+      transition: opacity 0.2s linear;
+    }
+
+    &:hover &-img {
+      opacity: 0.1;
+    }
+
+    &:hover &-info {
+      opacity: 1;
+    }
+
+    &-info {
+      position: absolute;
+      left: 0;
+      opacity: 0;
+      top: 50%;
+      font-size: 18px;
+      text-align: center;
+      transform: translate3d(0, -50%, 0);
+      transition: opacity 0.2s linear;
+      width: 100%;
+      padding: 0 20px;
+    }
+
+    &-title {
+      text-transform: uppercase;
+      margin-bottom: 14px;
+      font-weight: 700;
+    }
+  }
+}
+
+// === // works ===
