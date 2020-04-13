@@ -15,6 +15,7 @@
 // === variables ===
 $color-gray: #333;
 $color-gray-light: #d6d6d6;
+$color-gray-back: #f0f0f0;
 $color-white: #ffffff;
 $color-pink: #db6689;
 $color-pink-light: #e799b0;
@@ -553,7 +554,7 @@ body {
 // === rewievs ===
 
 .rewievs {
-  background-color: $color-gray-light;
+  background-color: $color-gray-back;
   padding: 60px 0;
   position: relative;
 
@@ -629,3 +630,20 @@ body {
   padding: 80px 0;
 }
 // === //team ===
+
+// === logos ===
+
+.logos {
+  background-color: $color-white;
+  padding: 30px 0;
+  border-top: 2px solid $color-gray-light;
+  border-bottom: 2px solid $color-gray-light;
+
+  &__row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+// === //logos ===

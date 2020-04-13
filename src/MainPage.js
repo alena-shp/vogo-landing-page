@@ -19,6 +19,11 @@ import facebook from "./assets/social/facebook.png"
 import instagram from "./assets/social/instagram.png"
 import pinterest from "./assets/social/pinterest.png"
 import twitter from "./assets/social/twitter.png"
+import logo1 from "./assets/logo/logo1.png"
+import logo2 from "./assets/logo/logo2.png"
+import logo3 from "./assets/logo/logo3.png"
+import logo4 from "./assets/logo/logo4.png"
+import logo5 from "./assets/logo/logo5.png"
 
 const MainPage = () => {
   return (
@@ -400,6 +405,17 @@ const MainPage = () => {
                 <p className="row-photo__person-position">manager</p>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+      <section className="logos">
+        <div className="container">
+          <div className="logos__row">
+            <img src={logo1} alt="" className="logos__row-item" />
+            <img src={logo2} alt="" className="logos__row-item" />
+            <img src={logo3} alt="" className="logos__row-item" />
+            <img src={logo4} alt="" className="logos__row-item" />
+            <img src={logo5} alt="" className="logos__row-item" />
           </div>
         </div>
       </section>
