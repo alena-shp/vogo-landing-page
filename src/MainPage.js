@@ -24,6 +24,10 @@ import logo2 from "./assets/logo/logo2.png"
 import logo3 from "./assets/logo/logo3.png"
 import logo4 from "./assets/logo/logo4.png"
 import logo5 from "./assets/logo/logo5.png"
+import client1 from "./assets/clients/client1.png"
+import client2 from "./assets/clients/client2.png"
+import client3 from "./assets/clients/client3.png"
+import client4 from "./assets/clients/client4.png"
 
 const MainPage = () => {
   return (
@@ -467,7 +471,9 @@ const MainPage = () => {
               />
               <div className="works__item-info">
                 <h3 className="works__item-title">Professionally</h3>
-                <p className="works__item-text">Modern design with interesting animation</p>
+                <p className="works__item-text">
+                  Modern design with interesting animation
+                </p>
               </div>
             </div>
 
@@ -479,7 +485,9 @@ const MainPage = () => {
               />
               <div className="works__item-info">
                 <h3 className="works__item-title">Qualitatively</h3>
-                <p className="works__item-text">Studying your target audience</p>
+                <p className="works__item-text">
+                  Studying your target audience
+                </p>
               </div>
             </div>
           </div>
@@ -493,7 +501,9 @@ const MainPage = () => {
               />
               <div className="works__item-info">
                 <h3 className="works__item-title">Creatively designed</h3>
-                <p className="works__item-text">Design for us is a special philosophy</p>
+                <p className="works__item-text">
+                  Design for us is a special philosophy
+                </p>
               </div>
             </div>
           </div>
@@ -507,7 +517,9 @@ const MainPage = () => {
               />
               <div className="works__item-info">
                 <h3 className="works__item-title">Beautiful</h3>
-                <p className="works__item-text">Think over to the smallest detail</p>
+                <p className="works__item-text">
+                  Think over to the smallest detail
+                </p>
               </div>
             </div>
 
@@ -520,6 +532,68 @@ const MainPage = () => {
               <div className="works__item-info">
                 <h3 className="works__item-title">Modernly</h3>
                 <p className="works__item-text">Sites of any complexity</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="clients">
+        <div className="container">
+        <div className="title-block">
+            <h3 className="title-block__sup">Happy Clients</h3>
+            <h3 className="title-block__sub">What people say</h3>
+          
+          </div>
+          <div className="clients__group">
+            <div className="clients__item">
+              <img src={client1} alt="" className="clients__item-img" />
+              <div className="clients__review">
+                <p className="clients__review-name">Mike Leonov</p>
+                <p className="clients__review-position">Project Manager</p>
+                <p className="clients__review-text">
+                  Each project is unique. Need to experiment. Also, it is
+                  necessary to be able to stop in time, think and make a correct
+                  assessment of the existing situation
+                </p>
+              </div>
+            </div>
+
+            <div className="clients__item">
+              <img src={client2} alt="" className="clients__item-img" />
+              <div className="clients__review">
+                <p className="clients__review-name">Christina Shots</p>
+                <p className="clients__review-position">Illustratorr</p>
+                <p className="clients__review-text">
+                  Sites, applications, books, animated videos - these are all
+                  the places where their pictures hang. Strengths are the
+                  ability to think decoratively, compose and experiment
+                </p>
+              </div>
+            </div>
+
+            <div className="clients__item">
+              <img src={client3} alt="" className="clients__item-img" />
+              <div className="clients__review">
+                <p className="clients__review-name">Nadia Zhivich</p>
+                <p className="clients__review-position">Graphic Designer</p>
+                <p className="clients__review-text">
+                  For people of my profession, design is a way to convey the
+                  right information to a client using graphic images. VoGo are
+                  wizards capable of breathing life into simple lines and shapes
+                </p>
+              </div>
+            </div>
+
+            <div className="clients__item">
+              <img src={client4} alt="" className="clients__item-img" />
+              <div className="clients-review">
+                <p className="clients__review-name">Nick Zvanov</p>
+                <p className="clients__review-position">Photographer</p>
+                <p className="clients__review-text">
+                  I really appreciate when a person who calls himself a
+                  photographer takes everything into his own hands, he himself
+                  directs the organization and process of photography
+                </p>
               </div>
             </div>
           </div>
