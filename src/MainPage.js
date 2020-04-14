@@ -12,6 +12,7 @@ import promo1 from "./assets/promo/promo1.png"
 import promo2 from "./assets/promo/promo2.png"
 import promo3 from "./assets/promo/promo3.png"
 import rewievsImg from "./assets/rewievsImg.png"
+import rewievsImg2 from "./assets/rewievsImg2.png"
 import team1 from "./assets/team/team1.png"
 import team2 from "./assets/team/team2.png"
 import team3 from "./assets/team/team3.png"
@@ -537,12 +538,27 @@ const MainPage = () => {
           </div>
         </div>
       </section>
+      <section className="rewievs rewievs--second">
+        <div className="container">
+          <div className="rewievs__item">
+            <img src={rewievsImg2} alt="" className="rewievs__item-img" />
+            <div className="rewievs__item-content">
+              <p className="rewievs__item-text">
+                "The speed of work, ease of communication, and naturally, as a
+                result of joint efforts - a site that we are ready to consider
+                and show. We believe in maintaining the existing business
+                relations, we hope for further cooperation".
+              </p>
+              <p className="rewievs__item-author">Lisa Moruga</p>
+            </div>
+          </div>
+        </div>
+      </section>
       <section className="clients">
         <div className="container">
-        <div className="title-block">
+          <div className="title-block">
             <h3 className="title-block__sup">Happy Clients</h3>
             <h3 className="title-block__sub">What people say</h3>
-          
           </div>
           <div className="clients__group">
             <div className="clients__item">
