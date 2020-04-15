@@ -1,6 +1,9 @@
 import React from "react"
 import "./style.scss"
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faEye, faCommentDots } from "@fortawesome/free-solid-svg-icons"
+
 import creativity from "./assets/services/creativity.png"
 import html from "./assets/services/html.png"
 import design from "./assets/services/design.png"
@@ -627,13 +630,13 @@ const MainPage = () => {
                 <a href="0#">
                   <img
                     className="blog__header-img"
-                    src="https://picsum.photos/id/2/200/300"
+                    src="https://picsum.photos/id/1059/360/250"
                     alt=""
                   />
                 </a>
                 <div className="blog__data">
                   <p className="blog__data-day">15</p>
-                  Jan
+                  Apr
                 </div>
               </div>
               <div className="blog__content">
@@ -651,12 +654,102 @@ const MainPage = () => {
                 </div>
               </div>
               <div className="blog__footer">
-                <div className="blog-stat">
-                  <span className="blog-stat__item">126</span>
-                  <span className="blog-stat__item">32</span>
-
+                <div className="blog__stat">
+                  <FontAwesomeIcon icon={faEye} className="blog__stat-icon" />
+                  74
                 </div>
+                <div className="blog__stat">
+                  <FontAwesomeIcon
+                    icon={faCommentDots}
+                    className="blog__stat-icon"
+                  />
+                  12
+                </div>
+              </div>
+            </div>
 
+            <div className="blog__item">
+              <div className="blog__header">
+                <a href="0#">
+                  <img
+                    className="blog__header-img"
+                    src="https://picsum.photos/id/319/360/250"
+                    alt=""
+                  />
+                </a>
+                <div className="blog__data">
+                  <p className="blog__data-day">13</p>
+                  Apr
+                </div>
+              </div>
+              <div className="blog__content">
+                <div className="blog__content-title">
+                  <a href="0#">
+                    Developers: We’re unveiling a new, more personalized Inspect
+                  </a>
+                </div>
+                <div className="blog__content-text">
+                  One of the biggest problems product teams have is getting
+                  their ideas held in InVision into a live environment for their
+                  customers. Developers don’t go into a new build intending to
+                  disregard design requests, but it’s easy
+                </div>
+              </div>
+              <div className="blog__footer">
+                <div className="blog__stat">
+                  <FontAwesomeIcon icon={faEye} className="blog__stat-icon" />
+                  44
+                </div>
+                <div className="blog__stat">
+                  <FontAwesomeIcon
+                    icon={faCommentDots}
+                    className="blog__stat-icon"
+                  />
+                  17
+                </div>
+              </div>
+            </div>
+
+            <div className="blog__item">
+              <div className="blog__header">
+                <a href="0#">
+                  <img
+                    className="blog__header-img"
+                    src="https://picsum.photos/id/370/360/250"
+                    alt=""
+                  />
+                </a>
+                <div className="blog__data">
+                  <p className="blog__data-day">21</p>
+                  Mar
+                </div>
+              </div>
+              <div className="blog__content">
+                <div className="blog__content-title">
+                  <a href="0#">
+                    Design needs to actually champion its Black community—us
+                    included
+                  </a>
+                </div>
+                <div className="blog__content-text">
+                  The design industry would not be what it is today without the
+                  contributions and talent coming from the Black design
+                  community. As a Black female creative myself, I am very aware
+                  of the fact that this talented community exists
+                </div>
+              </div>
+              <div className="blog__footer">
+                <div className="blog__stat">
+                  <FontAwesomeIcon icon={faEye} className="blog__stat-icon" />
+                  89
+                </div>
+                <div className="blog__stat">
+                  <FontAwesomeIcon
+                    icon={faCommentDots}
+                    className="blog__stat-icon"
+                  />
+                  5
+                </div>
               </div>
             </div>
           </div>
