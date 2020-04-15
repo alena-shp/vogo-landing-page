@@ -615,6 +615,53 @@ const MainPage = () => {
           </div>
         </div>
       </section>
+      <section className="blog">
+        <div className="container">
+          <div className="title-block">
+            <h3 className="title-block__sup">Our stories</h3>
+            <h3 className="title-block__sub">Latest blog</h3>
+          </div>
+          <div className="blog__row">
+            <div className="blog__item">
+              <div className="blog__header">
+                <a href="0#">
+                  <img
+                    className="blog__header-img"
+                    src="https://picsum.photos/id/2/200/300"
+                    alt=""
+                  />
+                </a>
+                <div className="blog__data">
+                  <p className="blog__data-day">15</p>
+                  Jan
+                </div>
+              </div>
+              <div className="blog__content">
+                <div className="blog__content-title">
+                  <a href="0#">
+                    3 signs you need DesignOps at your organization
+                  </a>
+                </div>
+                <div className="blog__content-text">
+                  In 2015, Dropbox’s design team was expanding rapidly and
+                  experiencing some growing pains. They reached a point where
+                  managing the requests for design work was a job in itself, so
+                  they hired Collin Whitehead to step in as an Executive
+                  Producer
+                </div>
+              </div>
+              <div className="blog__footer">
+                <div className="blog-stat">
+                  <span className="blog-stat__item">126</span>
+                  <span className="blog-stat__item">32</span>
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   )
 }
