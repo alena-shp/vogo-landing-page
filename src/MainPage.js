@@ -2,7 +2,11 @@ import React from "react"
 import "./style.scss"
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faEye, faCommentDots } from "@fortawesome/free-solid-svg-icons"
+import {
+  faEye,
+  faCommentDots,
+  faMapMarkerAlt,
+} from "@fortawesome/free-solid-svg-icons"
 
 import creativity from "./assets/services/creativity.png"
 import html from "./assets/services/html.png"
@@ -752,6 +756,19 @@ const MainPage = () => {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+      <section className="map">
+        <div className="container">
+          <div className="map__title">
+            <FontAwesomeIcon
+              icon={faMapMarkerAlt}
+              className="blog__stat-icon"
+            />
+            <a href="0#">
+              <h3>Open map</h3>
+            </a>
           </div>
         </div>
       </section>
