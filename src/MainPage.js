@@ -766,7 +766,10 @@ const MainPage = () => {
               icon={faMapMarkerAlt}
               className="map__title-icon"
             />
-            <a href="0#" className="map__title-text">
+            <a
+              href="https://goo.gl/maps/YBwPo7U6kRLcw4sF6"
+              className="map__title-text"
+            >
               Open map
             </a>
           </div>
