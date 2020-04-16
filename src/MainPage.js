@@ -764,10 +764,10 @@ const MainPage = () => {
           <div className="map__title">
             <FontAwesomeIcon
               icon={faMapMarkerAlt}
-              className="blog__stat-icon"
+              className="map__title-icon"
             />
-            <a href="0#">
-              <h3>Open map</h3>
+            <a href="0#" className="map__title-text">
+              Open map
             </a>
           </div>
         </div>
