@@ -6,6 +6,11 @@ import {
   faEye,
   faCommentDots,
   faMapMarkerAlt,
+  faInstagram,
+  faFacebook,
+  faTwitter,
+  faPinterest,
+  faYoutube,
 } from "@fortawesome/free-solid-svg-icons"
 
 import creativity from "./assets/services/creativity.png"
@@ -27,6 +32,9 @@ import facebook from "./assets/social/facebook.png"
 import instagram from "./assets/social/instagram.png"
 import pinterest from "./assets/social/pinterest.png"
 import twitter from "./assets/social/twitter.png"
+import google from "./assets/social/google.png"
+import telegram from "./assets/social/telegram.png"
+import youtube from "./assets/social/youtube.png"
 import logo1 from "./assets/logo/logo1.png"
 import logo2 from "./assets/logo/logo2.png"
 import logo3 from "./assets/logo/logo3.png"
@@ -772,6 +780,58 @@ const MainPage = () => {
             >
               Open map
             </a>
+          </div>
+        </div>
+      </section>
+      <section className="footer">
+        <div className="container">
+          <div className="inner">
+            <div className="footer__col">
+              <h3 className="footer__logo">VoGo</h3>
+              <p className="footer__text">
+                We create projects of the highest level because we love our job
+                and adhere to high standards in the field of design and customer
+                service. Each project is unique and thought out to the smallest
+                detail, which reflects our author's approach
+              </p>
+              <div className="footer__social">
+                <div className="footer__social-header">
+                  <b>15k </b>followers
+                </div>
+                <div className="footer__social-content">
+                  Follow us
+                  <a href="#0">
+                    <img src={facebook} alt="" />
+                  </a>
+                  <a href="#0">
+                    <img src={instagram} alt="" />
+                  </a>
+                  <a href="#0">
+                    <img src={pinterest} alt="" />
+                  </a>
+                  <a href="#0">
+                    <img src={twitter} alt="" />
+                  </a>
+                  <a href="#0">
+                    <img src={google} alt="" />
+                  </a>
+                  <a href="#0">
+                    <img src={telegram} alt="" />
+                  </a>
+                  <a href="#0">
+                    <img src={youtube} alt="" />
+                  </a>
+                </div>
+                <form className="subscribe">
+                  <input
+                    type="email"
+                    className="subscribe__input"
+                    placeholder="Your Email"
+                  />
+                  <button className="subscribe__btn">Subscribe</button>
+                </form>
+              </div>
+            </div>
           </div>
         </div>
       </section>
