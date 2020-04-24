@@ -5,12 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {
   faEye,
   faCommentDots,
-  faMapMarkerAlt,
-  faInstagram,
-  faFacebook,
-  faTwitter,
-  faPinterest,
-  faYoutube,
+  faMapMarkerAlt
 } from "@fortawesome/free-solid-svg-icons"
 
 import creativity from "./assets/services/creativity.png"
@@ -786,7 +781,7 @@ const MainPage = () => {
       <section className="footer">
         <div className="container">
           <div className="inner">
-            <div className="footer__col">
+            <div className="footer__col--first">
               <h3 className="footer__logo">VoGo</h3>
               <p className="footer__text">
                 We create projects of the highest level because we love our job
@@ -832,6 +827,20 @@ const MainPage = () => {
                 </form>
               </div>
             </div>
+
+            <div className="footer__col--second">
+              <h4 className="footer__title">Blog</h4>
+              <div className="footer__blog">
+                <div className="blog__item">
+                  <img
+                    className="blog__item-img"
+                    src="https://picsum.photos/id/37/120/80"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="footer__col--third">3</div>
           </div>
         </div>
       </section>

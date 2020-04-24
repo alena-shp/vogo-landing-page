@@ -915,3 +915,105 @@ body {
   }
 }
 // === // map ===
+
+// === footer ===
+.footer {
+  padding-top: 80px;
+  background-color: $color-gray-back;
+
+  &__col {
+    &--first {
+      width: 40%;
+    }
+    &--second {
+      width: 29%;
+    }
+    &--third {
+      width: 22%;
+    }
+  }
+
+  .inner {
+    padding-bottom: 70px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__logo {
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-weight: 700;
+    color: $color-gray-blog;
+  }
+
+  &__text {
+    margin-bottom: 50px;
+  }
+
+  &__social {
+    &-header {
+      font-size: 18px;
+      border-bottom: 1px solid $color-gray-light;
+      padding-bottom: 16px;
+    }
+    &-content {
+      padding-top: 16px;
+      margin-bottom: 36px;
+      display: flex;
+      align-items: center;
+      a {
+        display: flex;
+      }
+      img {
+        width: 40px;
+        margin-left: 8px;
+      }
+    }
+  }
+  .subscribe {
+    @include font-btn;
+
+    display: flex;
+    width: 100%;
+    max-width: 380px;
+
+    &__input {
+      width: 60%;
+      padding: 12px;
+      background-color: $color-gray-back;
+      border: 1px solid $color-gray-light;
+      border-right: 0;
+      height: 40px;
+      font-style: italic;
+      font-size: 16px;
+
+      &:focus {
+        outline: none;
+        border: 1px solid $color-pink;
+      }
+    }
+    &__btn {
+      width: 40%;
+      height: 40px;
+      background-color: $color-pink;
+      color: white;
+      cursor: pointer;
+      font-size: 14px;
+      text-transform: uppercase;
+      font-weight: bold;
+      padding: 12px 30px;
+      line-height: 0.2;
+      border: 0;
+      transition: 0.2s;
+
+      &:hover {
+        background-color: $color-pink-light;
+      }
+
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+}
+// === // footer ===
