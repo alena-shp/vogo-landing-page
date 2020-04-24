@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {
   faEye,
   faCommentDots,
-  faMapMarkerAlt
+  faMapMarkerAlt,
 } from "@fortawesome/free-solid-svg-icons"
 
 import creativity from "./assets/services/creativity.png"
@@ -830,13 +830,48 @@ const MainPage = () => {
 
             <div className="footer__col--second">
               <h4 className="footer__title">Blog</h4>
-              <div className="footer__blog">
-                <div className="blog__item">
+              <div className="footer__news">
+                <div className="news__item news">
                   <img
-                    className="blog__item-img"
-                    src="https://picsum.photos/id/37/120/80"
+                    className="news__img"
+                    src="https://picsum.photos/id/177/120/80"
                     alt=""
                   />
+                  <div className="news__content">
+                    <a href="0#" className="news__content-title">
+                      Figmography and other features of our process in Figma
+                    </a>
+                    <span className="news__content-date">Apr 9, 2020</span>
+                  </div>
+                </div>
+
+                <div className="news__item news">
+                  <img
+                    className="news__img"
+                    src="https://picsum.photos/id/24/120/80"
+                    alt=""
+                  />
+                  <div className="news__content">
+                    <a href="0#" className="news__content-title">
+                      Dark mode. Factors for creating dark sites and
+                      applications
+                    </a>
+                    <span className="news__content-date">Apr 7, 2020</span>
+                  </div>
+                </div>
+
+                <div className="news__item news">
+                  <img
+                    className="news__img"
+                    src="https://picsum.photos/id/41/120/80"
+                    alt=""
+                  />
+                  <div className="news__content">
+                    <a href="0#" className="news__content-title">
+                    UI design. Applying Contrast and Similarities
+                    </a>
+                    <span className="news__content-date">Apr 2, 2020</span>
+                  </div>
                 </div>
               </div>
             </div>
