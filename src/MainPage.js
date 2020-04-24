@@ -868,15 +868,52 @@ const MainPage = () => {
                   />
                   <div className="news__content">
                     <a href="0#" className="news__content-title">
-                    UI design. Applying Contrast and Similarities
+                      UI design. Applying Contrast and Similarities
                     </a>
                     <span className="news__content-date">Apr 2, 2020</span>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="footer__col--third">3</div>
+            <div className="footer__col--third">
+              <h4 className="footer__title">Instagram</h4>
+              <div className="footer__instagram">
+                <a href="0#" className="footer__instagram-img">
+                  <img src="https://picsum.photos/id/50/90/90" alt="" />
+                </a>
+                <a href="0#" className="footer__instagram-img">
+                  <img src="https://picsum.photos/id/51/90/90" alt="" />
+                </a>
+                <a href="0#" className="footer__instagram-img">
+                  <img src="https://picsum.photos/id/52/90/90" alt="" />
+                </a>
+                <a href="0#" className="footer__instagram-img">
+                  <img src="https://picsum.photos/id/53/90/90" alt="" />
+                </a>
+                <a href="0#" className="footer__instagram-img">
+                  <img src="https://picsum.photos/id/54/90/90" alt="" />
+                </a>
+                <a href="0#" className="footer__instagram-img">
+                  <img src="https://picsum.photos/id/55/90/90" alt="" />
+                </a>
+                <a href="0#" className="footer__instagram-img">
+                  <img src="https://picsum.photos/id/56/90/90" alt="" />
+                </a>
+                <a href="0#" className="footer__instagram-img">
+                  <img src="https://picsum.photos/id/57/90/90" alt="" />
+                </a>
+                <a href="0#" className="footer__instagram-img">
+                  <img src="https://picsum.photos/id/58/90/90" alt="" />
+                </a>
+              </div>
+              <a href="0#" className="footer__link">
+                View more photos
+              </a>
+            </div>
           </div>
+          <span className="footer__copyright">
+            © 2020 VoGo. All rights reserved
+          </span>
         </div>
       </section>
     </div>
